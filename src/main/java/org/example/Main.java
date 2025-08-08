@@ -7,5 +7,7 @@ public class Main {
 
         System.out.println("Hello World!\n");
 
+
+        int age = 23;
     }
 }
