@@ -1,6 +1,7 @@
 package org.example.Head03_oopProgramming.example03;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Order {
@@ -40,4 +41,14 @@ public class Order {
     public boolean isPaid() {
         return isPaid;
     }
+
+    public void addProduct(Product product) {
+        this.products.add(product);
+    }
+
+    // 오버로딩: 가변인자 사용
+    public void addProduct(Product... products) {
+        this.products.addAll(Arrays.asList(products));
+    }
+
 }
