@@ -1,4 +1,4 @@
-package org.example.Head03_oopProgramming.example03;
+package org.example.Head02_oopProgramming.example03;
 
 public class Product {
     private String productId;

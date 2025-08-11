@@ -1,4 +1,4 @@
-package org.example.Head03_oopProgramming.example04;
+package org.example.Head02_oopProgramming.example04;
 
 public class VarargsExample {
     public static void main(String[] args) {
