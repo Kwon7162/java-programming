@@ -1,4 +1,4 @@
-package org.example.Head03_oopProgramming.example02;
+package org.example.Head02_oopProgramming.example02;
 
 class Order {
     String customerName;
