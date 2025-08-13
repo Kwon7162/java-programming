@@ -18,7 +18,6 @@ public class UserAccount {
             throw new IllegalArgumentException("입금 금액은 0보다 커야 합니다.");
         }
         balance += amount; // balance = balance + amount;
-        System.out.println("계좌 [" + accountId + "]에 " + amount + "원 입금. 현재 잔액: " + balance + "원");
     }
 
     // 출금 로직
@@ -30,7 +29,6 @@ public class UserAccount {
             throw new IllegalStateException("잔액이 부족합니다. 현재 잔액: " + balance + "원");
         }
         balance -= amount; //balance = balance - amount;
-        System.out.println("계좌 [" + accountId + "]에서 " + amount + "원 출금. 남은 잔액: " + balance + "원");
     }
 
     // 읽기 전용 접근자 (외부에서 잔액을 확인할 수만 있음)
