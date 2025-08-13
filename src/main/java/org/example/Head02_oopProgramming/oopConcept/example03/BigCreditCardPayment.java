@@ -1,4 +1,4 @@
-package org.example.Head02_oopProgramming.oopConcept.exmaple03;
+package org.example.Head02_oopProgramming.oopConcept.example03;
 
 public class BigCreditCardPayment implements Payment {
     @Override
